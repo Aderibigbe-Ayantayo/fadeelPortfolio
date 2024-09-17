@@ -58,11 +58,10 @@ header {
       display: none; /* Hide menu on mobile */
       flex-direction: column;
       width: 100%;
-      background-color: #333;
       position: absolute;
       top: 60px; /* Adjust based on header height */
       left: 0;
-      gap: 10px;
+      gap: 6px;
       padding: 10px 0;
     }
   
