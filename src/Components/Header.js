@@ -25,10 +25,9 @@
 
 // export default Header;
 
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css'; // Import your CSS file
+import './Header.css'; // Ensure that this CSS is being imported
 
 const Header = ({ toggleDarkMode }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -40,11 +39,14 @@ const Header = ({ toggleDarkMode }) => {
     return (
         <header>
             <nav>
+                {/* Hamburger menu */}
                 <div className="hamburger" onClick={toggleMenu}>
                     <div className="bar"></div>
                     <div className="bar"></div>
                     <div className="bar"></div>
                 </div>
+
+                {/* Navigation Links */}
                 <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
@@ -52,6 +54,8 @@ const Header = ({ toggleDarkMode }) => {
                     <li><Link to="/contact">Contact</Link></li>
                     <li><Link to="/testimonials">Testimonials</Link></li>
                 </ul>
+
+                {/* Dark Mode Toggle Button */}
                 <button onClick={toggleDarkMode} className="dark-mode-toggle">
                     Toggle Dark Mode
                 </button>
@@ -61,4 +65,3 @@ const Header = ({ toggleDarkMode }) => {
 };
 
 export default Header;
-
