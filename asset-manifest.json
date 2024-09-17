@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fadeelPortfolio/static/css/main.b9dafc1b.css",
+    "main.css": "/fadeelPortfolio/static/css/main.f9e1c76f.css",
     "main.js": "/fadeelPortfolio/static/js/main.f1e81fbb.js",
     "static/js/453.acca0757.chunk.js": "/fadeelPortfolio/static/js/453.acca0757.chunk.js",
     "index.html": "/fadeelPortfolio/index.html",
-    "main.b9dafc1b.css.map": "/fadeelPortfolio/static/css/main.b9dafc1b.css.map",
+    "main.f9e1c76f.css.map": "/fadeelPortfolio/static/css/main.f9e1c76f.css.map",
     "main.f1e81fbb.js.map": "/fadeelPortfolio/static/js/main.f1e81fbb.js.map",
     "453.acca0757.chunk.js.map": "/fadeelPortfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9dafc1b.css",
+    "static/css/main.f9e1c76f.css",
     "static/js/main.f1e81fbb.js"
   ]
 }
