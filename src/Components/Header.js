@@ -47,12 +47,12 @@ const Header = ({ toggleDarkMode }) => {
                 </div>
 
                 {/* Navigation Links */}
-                <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/projects">Projects</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                    <li><Link to="/testimonials">Testimonials</Link></li>
+                   <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
+                    <li><Link to="/" onClick={toggleMenu}>Home</Link></li>
+                    <li><Link to="/about" onClick={toggleMenu}>About</Link></li>
+                    <li><Link to="/projects" onClick={toggleMenu}>Projects</Link></li>
+                    <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
+                    <li><Link to="/testimonials" onClick={toggleMenu}>Testimonials</Link></li>
                 </ul>
 
                 {/* Dark Mode Toggle Button */}

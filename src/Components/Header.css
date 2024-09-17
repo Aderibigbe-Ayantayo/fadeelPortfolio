@@ -27,7 +27,7 @@ header a {
 
 /* Hamburger Menu Styles */
 .hamburger {
-    display: none; /* Hidden by default */
+    display: none; /* Hidden by default on larger screens */
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
@@ -40,22 +40,14 @@ header a {
     transition: 0.3s;
 }
 
-/* Default mobile menu hidden */
+/* Show navigation links by default on larger screens */
 .nav-links {
-    display: none;
-    flex-direction: column;
-    background-color: #333;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    padding: 10px 0;
-    gap: 10px;
+    display: flex;
+    gap: 20px;
 }
 
-/* Show mobile menu when open */
 .nav-links.open {
-    display: flex;
+    display: flex; /* Always visible on larger screens */
 }
 
 /* Media Queries for Responsiveness */
@@ -65,19 +57,21 @@ header a {
         display: flex;
     }
 
-    /* Initially hide the navigation links */
+    /* Hide the navigation links by default on mobile */
     .nav-links {
-        display: none; /* Hidden on small screens by default */
-    }
-
-    /* When the state is active, show the menu */
-    .nav-links.open {
-        display: flex; /* Show the menu when hamburger is clicked */
+        display: none;
         flex-direction: column;
+        background-color: #010120;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+        gap: 10px;
     }
 
-    /* Optional: Adjust button styles */
-    .dark-mode-toggle {
-        margin-top: 10px;
+    /* Show the menu when open */
+    .nav-links.open {
+        display: flex;
     }
 }
