@@ -31,8 +31,8 @@ function App() {
       <div className="App">
         <Header toggleDarkMode={toggleDarkMode} />
         <Routes>
-          <Route path="/header" element={<Header />} />
-          <Route path="/" index element={<Home />} />
+          {/* <Route path="/header" element={<Header />} /> */}
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
