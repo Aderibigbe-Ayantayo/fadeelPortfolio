@@ -55,13 +55,14 @@ header {
   
   @media (max-width: 768px) {
     header ul {
-      display: none; /* Hide menu on mobile */
+      display: none; /* Hide menu on mobile by default */
       flex-direction: column;
       width: 100%;
+     
       position: absolute;
       top: 60px; /* Adjust based on header height */
       left: 0;
-      gap: 6px;
+      gap: 10px;
       padding: 10px 0;
     }
   
