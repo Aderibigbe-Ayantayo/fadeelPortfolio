@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/fadeelPortfolio/static/css/main.d69b20f7.css",
-    "main.js": "/fadeelPortfolio/static/js/main.27f6adba.js",
+    "main.css": "/fadeelPortfolio/static/css/main.e2138c3c.css",
+    "main.js": "/fadeelPortfolio/static/js/main.bbe0a60f.js",
     "static/js/453.acca0757.chunk.js": "/fadeelPortfolio/static/js/453.acca0757.chunk.js",
+    "static/media/Fadeelcv.pdf": "/fadeelPortfolio/static/media/Fadeelcv.eaf00df1597e27a34675.pdf",
+    "static/media/React logo.png": "/fadeelPortfolio/static/media/React logo.582cbc784710a3dbe704.png",
+    "static/media/img1.jpg": "/fadeelPortfolio/static/media/img1.0278b75b8c081051e36d.jpg",
     "index.html": "/fadeelPortfolio/index.html",
-    "main.d69b20f7.css.map": "/fadeelPortfolio/static/css/main.d69b20f7.css.map",
-    "main.27f6adba.js.map": "/fadeelPortfolio/static/js/main.27f6adba.js.map",
+    "main.e2138c3c.css.map": "/fadeelPortfolio/static/css/main.e2138c3c.css.map",
+    "main.bbe0a60f.js.map": "/fadeelPortfolio/static/js/main.bbe0a60f.js.map",
     "453.acca0757.chunk.js.map": "/fadeelPortfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d69b20f7.css",
-    "static/js/main.27f6adba.js"
+    "static/css/main.e2138c3c.css",
+    "static/js/main.bbe0a60f.js"
   ]
 }
