@@ -1,0 +1,133 @@
+/* Basic styles for the About component */
+.about {
+    padding: 20px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.about-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5rem; /* Reduced the margin for mobile */
+}
+
+.about-text {
+    max-width: 600px;
+    margin-bottom: 2rem; /* Adjusted margin */
+}
+
+.about-text h2 {
+    margin-bottom: 1.5rem;
+}
+
+.about-buttons {
+    margin-top: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #7aa2cd;
+    border-radius: 2rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #370451;
+}
+
+.btn.cv {
+    background-color: #7aa2cd;
+    margin-left: 3rem;
+}
+
+.btn.cv:hover {
+    background-color: #370451;
+}
+
+.stack {
+    margin-top: 40px;
+}
+
+.stack h3 {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    color: #f1e4e4;
+}
+
+.stack-items {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.stack-item {
+    text-align: center;
+}
+
+.stack-logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.stack-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #f1e9e9;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px; /* Reduced gap for better alignment */
+    }
+
+    .about-image {
+        margin-bottom: 2rem; /* Reduced space below image */
+    }
+
+    .about-text {
+        text-align: center;
+        margin-bottom: 1.5rem; /* Adjust margin */
+    }
+
+    .about-buttons {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .btn.cv {
+        margin-left: 0; /* Adjusted to center buttons in mobile view */
+    }
+
+    .stack-items {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px; /* Tighter gap for better mobile display */
+    }
+
+    .stack-item {
+        width: 100px;
+        margin-bottom: 1rem;
+    }
+}
