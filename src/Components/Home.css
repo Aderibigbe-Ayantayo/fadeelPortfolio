@@ -1,0 +1,111 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .hero-text {
+    flex: 1;
+    margin-right: 20px;
+    transform: skew(-10deg); /* Apply skew to the text content */
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .hero-text h1 .highlight {
+    color: yellow; /* Color the name Fadeel yellow */
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-width: 300px; /* Set a limit on image width */
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transform: scale(1); /* Default state (zoomed in) */
+    transform-origin: center; /* Keep the zoom centered */
+  }
+  
+  /* Zoom out effect on hover */
+  .hero-image img:hover {
+    transform: scale(1.1); /* Zoom out */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Slightly increase the shadow */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-text {
+      margin-right: 0;
+      margin-bottom: 20px;
+      transform: none; /* Remove skew on mobile for better readability */
+    }
+  
+    .hero-image {
+      justify-content: center;
+    }
+  
+    .hero-image img {
+      max-width: 200px;
+    }
+  
+    .hero-text h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-text p {
+      font-size: 1rem;
+    }
+  
+    .btn.hire-me {
+      padding: 8px 16px;
+    }
+  }
+  
