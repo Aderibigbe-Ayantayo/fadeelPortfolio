@@ -1,16 +1,3 @@
-// import React from 'react';
-
-// const About = () => {
-//     return (
-//         <div className="about">
-//             <h2>About Me</h2>
-//             <p>I am a full-stack developer with a passion for creating clean, responsive, and visually appealing web applications. I possess a basic understanding of React.JS HTML, CSS, Javascript and Node.Js</p>
-//         </div>
-//     );
-// };
-
-// export default About;
-
 import React from 'react';
 import './About.css'; // Import the CSS file for styling
 
@@ -30,7 +17,7 @@ const About = () => {
                 <div className="about-text">
                     <h2>About Me</h2>
                     <p>
-                        I am a full-stack developer with a passion for creating clean, responsive, and visually appealing web applications. I possess a basic understanding of React.JS, HTML, CSS, JavaScript, and Node.js.
+                        I am a full-stack developer with a passion for creating clean, responsive, and visually appealing web applications. I possess an understanding of React.JS, HTML, CSS, JavaScript, and Node.js.
                     </p>
                     
                     <div className="stack">
