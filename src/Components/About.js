@@ -26,12 +26,6 @@ const About = () => {
     return (
         <div className="about">
             <div className="about-content">
-                {/* Personal Image */}
-                <img src={personalImage} 
-                    alt="Personal" 
-                    className="about-image"
-                />
-
                 {/* Text Content */}
                 <div className="about-text">
                     <h2>About Me</h2>
@@ -58,17 +52,23 @@ const About = () => {
                                 <img src={reactLogo} alt="React" className="stack-logo" />
                                 <p>React</p>
                             </div>
-                            <div className="about-buttons">
-                        <a href="#/contact" className="btn hire-me">----Hire Me----</a>
-                        <a href={ cvFile } className="btn cv" target="_blank" rel="noopener noreferrer">----Get CV----</a>
-                    </div>
                         </div>
                     </div>
+                    
+                    <div className="about-buttons">
+                        <a href="#/contact" className="btn hire-me">----Hire Me----</a>
+                        <a href={cvFile} className="btn cv" target="_blank" rel="noopener noreferrer">----Get CV----</a>
+                    </div>
                 </div>
+
+                {/* Personal Image */}
+                <img src={personalImage} 
+                    alt="Personal" 
+                    className="about-image"
+                />
             </div>
         </div>
     );
 };
 
 export default About;
-

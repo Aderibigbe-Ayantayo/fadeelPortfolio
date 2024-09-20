@@ -11,7 +11,8 @@
 .about-content {
     display: flex;
     align-items: center;
-    gap: 100px;
+    justify-content: space-between; /* Added to place image on the right */
+    gap: 50px; /* Adjust gap as needed */
     flex-wrap: wrap;
 }
 
