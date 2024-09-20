@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Use HashRouter
 import Header from './Components/Header';
 import Home from './Components/Home';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
-import './styles.css'
+import './styles.css';
 
 function App() {
   // Dark mode state
@@ -31,7 +31,6 @@ function App() {
       <div className="App">
         <Header toggleDarkMode={toggleDarkMode} />
         <Routes>
-          {/* <Route path="/header" element={<Header />} /> */}
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
