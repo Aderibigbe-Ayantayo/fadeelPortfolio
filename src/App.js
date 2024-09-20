@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Use HashRouter
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './Components/Header';
 import Home from './Components/Home';
 import About from './Components/About';
@@ -9,15 +9,12 @@ import Testimonials from './Components/Testimonials';
 import './styles.css';
 
 function App() {
-  // Dark mode state
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  // Function to toggle dark mode
   const toggleDarkMode = () => {
     setIsDarkMode(prevMode => !prevMode);
   };
 
-  // Add or remove 'dark-mode' class from the body element when isDarkMode changes
   useEffect(() => {
     if (isDarkMode) {
       document.body.classList.add('dark-mode');

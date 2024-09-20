@@ -12,7 +12,7 @@
 // export default About;
 
 import React from 'react';
-import './About.css'; // Import the CSS file for styling
+import './About.css';
 
 // Import images from src folder
 import personalImage from './Assets/images/img1.jpg';
@@ -58,10 +58,10 @@ const About = () => {
                                 <img src={reactLogo} alt="React" className="stack-logo" />
                                 <p>React</p>
                             </div>
-                            <div className="about-buttons">
-                        <a href="/contact" className="btn hire-me">Hire Me</a>
-                        <a href={ cvFile } className="btn cv" target="_blank" rel="noopener noreferrer">Get CV</a>
-                    </div>
+                        </div>
+                        <div className="about-buttons">
+                            <a href="#/contact" className="btn hire-me">Hire Me</a> {/* Ensure this link points to "#/contact" */}
+                            <a href={ cvFile } className="btn cv" target="_blank" rel="noopener noreferrer">Get CV</a>
                         </div>
                     </div>
                 </div>
@@ -71,4 +71,3 @@ const About = () => {
 };
 
 export default About;
-
