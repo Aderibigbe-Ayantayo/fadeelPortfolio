@@ -12,6 +12,13 @@ const Home = () => {
       {/* Hero Section or Intro Section */}
       <section className="hero">
         <div className="hero-content">
+          
+          {/* Image Section */}
+          <div className="hero-image">
+            <img src={personalImage} alt="Fadeel" />
+          </div>
+
+          {/* Text Section */}
           <div className="hero-text">
             <p>Hi,</p>
             <h1>I'm <span className="highlight">Fadeel</span></h1>
@@ -20,12 +27,7 @@ const Home = () => {
               I am a full-stack developer with a passion for building clean and
               responsive web applications.
             </p>
-            <a href="#/contact" className="btn hire-me">Hire Me</a> {/* A quick CTA */}
-          </div>
-
-          {/* Image Section */}
-          <div className="hero-image">
-            <img src={personalImage} alt="Fadeel" />
+            <a href="#/contact" className="btn hire-me">----Hire Me----</a> {/* A quick CTA */}
           </div>
         </div>
       </section>

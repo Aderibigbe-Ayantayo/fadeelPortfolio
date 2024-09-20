@@ -59,8 +59,8 @@ const About = () => {
                                 <p>React</p>
                             </div>
                             <div className="about-buttons">
-                        <a href="#/contact" className="btn hire-me">Hire Me</a>
-                        <a href={ cvFile } className="btn cv" target="_blank" rel="noopener noreferrer">Get CV</a>
+                        <a href="#/contact" className="btn hire-me">----Hire Me----</a>
+                        <a href={ cvFile } className="btn cv" target="_blank" rel="noopener noreferrer">----Get CV----</a>
                     </div>
                         </div>
                     </div>
