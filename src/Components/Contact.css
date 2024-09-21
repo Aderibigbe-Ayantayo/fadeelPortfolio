@@ -48,5 +48,6 @@ button:hover {
 }
 
 .contact h6 {
-    color:#ccc
+    color:#ccc;
+    font-size: small;
 }
