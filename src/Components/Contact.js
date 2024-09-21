@@ -64,7 +64,6 @@ const Contact = () => {
     return (
         <div className="contact">
             <h2>Contact Me</h2>
-            <h6>Please fill out the form below to discuss any work opportunities.</h6>
             {isSubmitted ? (
                 <p>Thank you! Your message has been sent successfully.</p>
             ) : (
