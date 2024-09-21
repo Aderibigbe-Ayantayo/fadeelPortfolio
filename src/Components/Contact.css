@@ -46,3 +46,7 @@ button:hover {
     color: red;
     font-size: 0.9rem;
 }
+
+.contact h6 {
+    color:#ccc
+}
